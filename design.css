@@ -101,6 +101,10 @@ section {
     font-size: 2.5em;
     padding-right: 30px;
 }
+.social-icon:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
 .social-icons a:visited {
     color: rgb(154, 154, 219);
 }
