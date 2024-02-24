@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html {
-    scroll-behavior: smooth; /*changes the behaviour of scrolling */
-}
-
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth; /*changes the behaviour of scrolling */
     
 } /*Universal identifier*/
-
+.main-header {
+    margin-top: 10rem;
+}
+/* .main-header>h2 {
+    font-weight: bolder;
+} */
 /*style the header element*/
 header {
     background-color:rgb(241, 241, 241);
@@ -31,7 +33,6 @@ header {
     text-decoration: none;
     color: blue;
     text-transform: uppercase;
-    scroll-behavior: smooth;
 }
 .navigation a{
     color: blue;
@@ -53,7 +54,7 @@ section {
     min-height: 100vh; /*the height is atleast 100vh*/
     display:flex ;
     align-items: center; /*only after display-flex*/
-    background: url(https://wallpaper.dog/large/20528193.jpg) no-repeat;
+    background: url(images/comejpg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
@@ -101,10 +102,6 @@ section {
     font-size: 2.5em;
     padding-right: 30px;
 }
-.social-icon:hover {
-    background-color: blue;
-    transform: scale(1.1);
-}
 .social-icons a:visited {
     color: rgb(154, 154, 219);
 }
@@ -141,7 +138,7 @@ section {
     color: blue;
     font-size: 8em;
     text-align: center;
-    
+
 }
 .info {
     text-align: center;
@@ -169,7 +166,6 @@ section {
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
-    
 }
 .project-card:hover {
     transform:scale(1.1);
@@ -179,11 +175,9 @@ section {
 }
 .project-image img{
     width: 100%;
-    
 }
 .project-info {
     padding :1em;
-    
 }
 .project-catagory {
     font-size: 0.8em;
